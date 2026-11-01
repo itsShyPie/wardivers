@@ -4,7 +4,14 @@ A co-op PvE shooter prototype on a custom Rust engine. Personal project, started
 
 The source is private. I'm happy to walk through it or give access on request.
 
-![Renderer test: lit, shadowed materials](images/renderer.png)
+| | |
+|---|---|
+| ![Rifle fire into an enemy pack](images/rifle-fire.png) | ![A missile volley climbing toward a pack](images/missile-volley.png) |
+| Rifle fire into an enemy pack | A missile volley climbing toward a pack |
+| ![A cannon slug piercing a line of targets](images/cannon-shot.png) | ![An enemy leaping at the player](images/enemy-leap.png) |
+| A cannon slug piercing a line of targets | An enemy leaping at the player |
+
+Early prototype art, captured in the engine.
 
 ## What's built so far
 
@@ -15,6 +22,8 @@ The source is private. I'm happy to walk through it or give access on request.
   predict their own movement and are corrected by the host's snapshots
 - **Crowds of up to 400 AI enemies**, parallelised with Rayon and measured by a headless benchmark
 - **292 automated tests**, plus headless capture and scripted scenarios that check every build
+
+![Renderer test: lit, shadowed materials](images/renderer.png)
 
 ## How it's built
 
